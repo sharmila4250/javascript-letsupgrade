@@ -1,1 +1,37 @@
+var a=10;
+var b=15;
+var c=10;
 
+//time taken to run this code started.
+
+
+console.time('time taken');
+
+
+//Mainly used to log(print) the output to the console. 
+
+console.log("Hello,you are lookinginto my day 2 assignmentand explanationrealated to the question is given in comments"
+  );
+  
+  
+ // Used to log error message to the console. 
+  
+  console.error("an error occurred!!");
+  
+  
+  //used to log warning message to the console.
+  
+  console.warn('hey this is a warning!!');
+  
+  
+  //used to log data in tabular form.
+  
+  console .table({a,b,c})
+  
+  
+  //time taken to run this code and calculated.
+  
+  console.timeEnd('time taken');
+  
+   
+  
