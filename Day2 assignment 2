@@ -1,0 +1,29 @@
+
+
+console.log("difference between var,let and const with examples")
+console.log("eg of var");
+var a=10;
+var b=15;
+console.log(a+b);
+var c=a+b;
+console.table({a,b,c});
+console.log("*******************************************")
+console.log("var declarations are globally scoped . ");
+console.log("let and const are block scoped .");
+console.log("var variables can be updated and re-declared within its scope."
+  );
+  console.log("let variables can be updated but not re-declared");
+  console.log("const variables can neither be updated nor re-declared.");
+  console.log("*******************************************")
+ console.log("eg of let");
+  {
+    let a=20;
+    console.log(a);
+  }
+  console.log(a);
+  console.log("*******************************************")
+  console.log("eg of const");
+  const d=10;
+  console.log(d);
+  
+  
